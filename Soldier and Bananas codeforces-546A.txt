@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// MAS Programming 
+    long int n,c,h,count=0,i;
+    cin>>c>>h>>n;
+    for( i=1;i<=n;i++)
+    {
+        count=count+(i*c);
+    }
+    if(count<=h)
+    {
+        cout<<0;
+    }
+    else{
+        cout<<count-h;
+    }
+ 
+}
+ 

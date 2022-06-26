@@ -1,0 +1,25 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// MAS Programming 
+	string s;
+    int count=0;
+	cin>>s;
+ 
+	for(int i=1;i<s.length();i++)
+	{
+	    if(s[i-1]==s[i])
+	    {
+	        count++;
+	    }
+	     if(count>=6)
+	    {
+	        cout<<"YES";
+	        return 0;
+	    }
+	     if(s[i-1]!=s[i])
+	    count=0;
+	}
+	cout<<"NO";
+}

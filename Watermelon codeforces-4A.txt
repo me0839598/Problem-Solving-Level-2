@@ -1,0 +1,24 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// MAS Programming 
+ 
+	int a;
+	
+	cin >> a;
+	
+ 
+	if (2 < a && a % 2==0){
+ 
+		cout << "yes";
+	}
+	else{
+ 
+		cout << "no";
+	}
+ 
+	return 0;
+
+		}
+ 

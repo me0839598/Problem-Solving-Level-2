@@ -1,0 +1,22 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// MAS Programming
+   char c;
+	int k=0;
+	while(cin>>c)
+	{
+		if(c=='4' || c=='7')
+		k++;
+	}
+	if((k==4 ||k==7))
+    {
+	      cout<<"YES" ;
+	}
+	else
+    {
+	  cout<<"NO";
+    }
+	return 0;
+ 
